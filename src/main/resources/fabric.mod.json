@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "amethystprotector",
+  "version": "${version}",
+  "name": "AmethystProtector",
+  "description": "A client-side mod to prevent accidentally mining fragile blocks!",
+  "authors": [
+    "Mikk Sanborn"
+  ],
+  "contact": {
+    "repo": "https://github.com/MikkSanborn/amethyst-protector"
+  },
+  "license": "MIT",
+  "icon": "assets/amethystprotector/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.mikksanborn.amethystprotector.client.AmethystProtectorClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "fabric-key-binding-api-v1": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
